@@ -21,3 +21,5 @@
     - AWS DynamoDB
     - AWS AppSync
 - VSCode
+---
+オニオンアーキテクチャ試しました。
