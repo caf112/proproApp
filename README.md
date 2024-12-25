@@ -13,6 +13,7 @@
 
 ## ツール
 - React
+    - TypeScript
 - Material-UI(MUI)
     - おすすめのUIライブラリ教えてください
 - AWS
@@ -23,3 +24,9 @@
 - VSCode
 ---
 オニオンアーキテクチャ試しました。
+※解釈があっているかわからないです
+- domain
+- usecase
+- presentation
+- infrastructure
+- ui
