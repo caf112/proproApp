@@ -1,21 +1,22 @@
 export const paths = {
-    home: {
+    Home: {
         path: "/",
-        getHref: () => "/",
     },
 
     auth: {
-        register: {
+        Register: {
             path: "auth/register",
-            getHref: () => `/auth/register`,
         },
-        login: {
+        Login: {
             path: "/auth/login",
-            getHref: () => `/auth/login`,
         },
     },
 
-    // app:
+    app: {
+        Mypage: {
+            path: "mypage",
+        },
+    }
 
 
 }
