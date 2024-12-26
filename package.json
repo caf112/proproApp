@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
     "cra-template-typescript": "1.2.0",
     "pro-pro": "file:",
     "react": "^18.2.0",
@@ -32,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
   }
 }
