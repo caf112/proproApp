@@ -1,3 +1,5 @@
+//認証は後回し
+
 import * as React from 'react'
 
 // これにCognitoの情報を入れればいいのか？
