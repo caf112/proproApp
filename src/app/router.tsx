@@ -1,31 +1,24 @@
 import React, { useMemo } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './routes/home'
-import { createBrowserRouter, RouterProvider } from 'react-router'
 import { paths } from '../config/path'
 import Login from './routes/auth/login'
 import Register from './routes/auth/register'
+import Mypage from './routes/app/mypage'
 
 export const AppRouter = () => {
-  
-  const router = createBrowserRouter([
-    {
-      path: paths.home.path,
-      element: <Home />
-    },
-    {
-      path: paths.auth.login.path,
-      element: <Login />
-    },
-    {
-      path: paths.auth.register.path,
-      element: <Register />
-    }
-  ])
-  
   return (
+    <Routes>
+      {/* ホーム画面 */}
+      <Route path={paths.Home.path} element={<Home />} />
 
-    <RouterProvider router={router} />
+      {/* 認証 */}
+      <Route path={paths.auth.Login.path} element={<Login />} />
+      <Route path={paths.auth.Register.path} element={<Register />} />
 
+      {/* ゲーム */}
+      <Route path={paths.app.Mypage.path} element={<Mypage />} />
+      
+    </Routes>
   )
 }
