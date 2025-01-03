@@ -1,5 +1,5 @@
 export const paths = {
-    Home: {
+    Top: {
         path: "/",
     },
 
